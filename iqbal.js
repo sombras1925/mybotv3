@@ -115,9 +115,9 @@ const { limit } = require('./database/menu/limit')
 // Load Vcard Contact
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Muhammad Iqbal\n' // full name
+            + 'FN:Sombras\n' // full name
             + 'ORG:Owner JINGAN BOT;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6285745376798:+62 857-4537-6798\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=994405380645:+994 40 538 06 45\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 prefix = botPrefix
 blocked = []
@@ -397,21 +397,18 @@ async function starts() {
             const q = args.join(' ')
             
             mess = {
-                                wait: '⌛ Sedang di Prosess Sabar yaa Ngentod⌛',
-                                succsess: '✔️ Berhasil  ✔️',
-                                levelon: '❬ ✔ ❭ *leveling diaktifkan*',
-                                levelnoton: `❬ X ❭  *leveling di nonaktifkan*`,
-                                levelnol: '*NGENTOD LEVEL LU MASIH* 0 °-°',
-                                error: {
-                                	    stick: '[❗] Gagal tod, terjadi kesalahan saat pengubahan gambar ke sticker❌',
-                                        Iv: '❌ Link nya gk valid ngentod ❌',
-                                },
-                        	only: {
-                        	        group: '[❗] SUMPAH LU TOLOL BET ANJINK, INI KHUSUS DI GRUP ANJINK  ❌',
-                                        ownerG: `[❗] Lu bukan owner grup ngentod! ❌`,
-                        	        admin: `[❗] Ehh... Anjink, lu itu cuma member jadi jangan sok keras yaa Ngentod ❌`,
-                                        Badmin: `[❗] Jadiin gw admin dulu lah ngentod! ❌`,
-                                        daftarB: `──「 BELUM REGISTER 」──\nHalo Ngentoters !\nLu kan belum Register nih tod, mending lu register dulu dahh... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Iqbal|17`,
+                                espera: '⌛ Actualmente en el proceso de ser paciente, sí, Ngentod⌛', 
+succsess: '✔️ Éxito ✔️', 
+levelon: '❬ ✔ ❭ * nivelación activada *', 
+levelnoton: `` ❬ X ❭ * nivelación deshabilitada * `,
+ levelnol: '* NGENTOD LEVEL LU STILL * 0 ° - °', 
+error: { stick: '[❗] Falló tod, hubo un error al cambiar la imagen a sticker❌',
+ Iv: '❌ El enlace no es válido ngentod ❌', }, 
+solamente: { grupo: '[❗] SUMPAH LU TOLOL APUESTA ANJINK, ESTO ES ESPECIAL PARA EL GRUPO ANJINK ❌', 
+ownerG: `[❗] ¡Lu no es la dueña del grupo ngentod! ❌`, 
+admin: `[❗] Ehh ... Anjink, solo eres un miembro, así que no seas duro, ¿de acuerdo?
+ Badmin: `` [❗] ¡Déjame ser el administrador primero! ❌`,
+ registerB: `──「 NO NO ESTÁ REGISTRADO 」── \ n} registrar Nombre|Edad`,
                                 }
                         }
     		const apakah = ['Iya','Tidak','Mungkin','Mungkin iya','Mungkin tidak','Coba tanyakan lagi','Tidak mungkin','Coba tanyakan lagi']
