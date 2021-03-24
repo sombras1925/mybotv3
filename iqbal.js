@@ -397,21 +397,24 @@ async function starts() {
             const q = args.join(' ')
             
             mess = {
-                                espera: '⌛ Actualmente en el proceso de ser paciente, sí, Ngentod⌛', 
-succsess: '✔️ Éxito ✔️', 
-levelon: '❬ ✔ ❭ * nivelación activada *', 
-levelnoton: `` ❬ X ❭ * nivelación deshabilitada * `,
- levelnol: '* NGENTOD LEVEL LU STILL * 0 ° - °', 
-error: { stick: '[❗] Falló tod, hubo un error al cambiar la imagen a sticker❌',
- Iv: '❌ El enlace no es válido ngentod ❌', }, 
-solamente: { grupo: '[❗] SUMPAH LU TOLOL APUESTA ANJINK, ESTO ES ESPECIAL PARA EL GRUPO ANJINK ❌', 
-ownerG: `[❗] ¡Lu no es la dueña del grupo ngentod! ❌`, 
-admin: `[❗] Ehh ... Anjink, solo eres un miembro, así que no seas duro, ¿de acuerdo?
- Badmin: `` [❗] ¡Déjame ser el administrador primero! ❌`,
- registerB: `──「 NO NO ESTÁ REGISTRADO 」── \ n} registrar Nombre|Edad`,
+                                wait: '⌛ ESPERA ESTA PROCESANDO ⌛',
+                                succsess: '✔️ EXITOSO  ✔️',
+                                levelon: '❬ ✔ ❭ *NIVELACIÓN ACTIVO*',
+                                levelnoton: `❬ X ❭  *NIVELACION QUITADA*`,
+                                levelnol: '*TU NIVEL* 0 °-°',
+                                error: {
+                                	    stick: '[❗] Tod falló, se produjo un error al convertir la imagen a la pegatina❌',
+                                        Iv: '❌ LINK INVALIDO PUT@ ❌',
+                                },
+                        	only: {
+                        	        group: '[❗]  LO JURO LU ESTUPIDO APUESTA PERROS, ESTO ES ESPECIAL EN GRUPOS DE PERROS ❌',
+                                        ownerG: `[❗] No es dueño del grupo! ❌`,
+                        	        admin: `[❗] Ehh... Solo eres un miembro, así que no seas duro😉🤭🤫 ❌`,
+                                        Badmin: `[❗] Entonces, el administrador me dirá primero! ❌`,
+                                        daftarB: `──「 TODAVÍA NO ESTAS REGISTRADO 」──\n Hola !\nTodavia no te has registrado... \n\nCommand : ${prefix}registrate mana|umur\nContoh : ${prefix}register Nombre|Edad`,
                                 }
                         }
-    		const apakah = ['Iya','Tidak','Mungkin','Mungkin iya','Mungkin tidak','Coba tanyakan lagi','Tidak mungkin','Coba tanyakan lagi']
+    		const apakah = ['Iya','Tidak','Quizas','Mungkin iya','Mungkin tidak','Coba tanyakan lagi','Tidak mungkin','Coba tanyakan lagi']
             const bolehkah = ['Boleh','Tidak boleh','Iya','Sangat di anjurkan','Tidak','Mingkin','Mungkin tidak','Jangan','Tentu saja','Coba tanyakan lagi']
 		    const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = iqbal.user.jid
