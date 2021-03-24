@@ -1,69 +1,69 @@
 exports.wait = () => {
-        return `⌛ Sedang di Prosess, Sabar yaa Ngentod ⌛`
+        return `⌛ Mientras esté en proceso, tenga paciencia ⌛`
 }
 
 exports.timeEnd = () => {
-        return `Waktu Habis Cuy`
+        return `El tiempo se acaba`
 }
 
 exports.succsess = () => {
-        return `✔️ Berhasil tod ✔️`
+        return `✔️ FUNCIONO TODO PUT@ ✔️`
 }
 
 exports.levelon = () => {
-        return `❬ ✔ ❭ *leveling diaktifkan*`
+        return `❬ ✔ ❭ *nivelación activada*`
 }
 
 exports.levelnoton = () => {
-        return `❬ X ❭  *leveling di nonaktifkan*`
+        return `❬ X ❭  *la nivelación está deshabilitada*`
 }
 
 exports.levelnol = () => {
-        return `*NGENTOD LEVEL LU MASIH* 0 °-°`
+        return `*NIVEL TODAVIA* 0 °-°`
 }
 
 exports.stick = () => {
-        return `[❗] Gagal tod, terjadi kesalahan saat pengubahan gambar ke sticker ❌`
+        return `[❗] se produjo un error al convertir la imagen al as sticker ❌`
 }
 
 exports.Iv = () => {
-        return `❌ Link nya gk valid ngentod ❌`
+        return `❌ LINK INVALIDO🧐:(  ❌`
 }
 
 exports.group = () => {
-        return `[❗] SUMPAH LU TOLOL BET ANJINK, INI KHUSUS DI GRUP ANJINK ❌`
+        return `[❗] SOLO PARA GRUPOS PUT@ ❌`
 }
 
 exports.ownerG = () => {
-        return `[❗] Lu bukan owner grup ngentod❌`
+        return `[❗] SOLO PROPIETARIO❌`
 }
 
 exports.ownerB = () => {
-        return `[❗] ANJINK, Lu sapa ngentod❌`
+        return `[❗] Quien edta jodiendo?❌`
 }
 
 exports.admin = () => {
-        return `[❗] Ehh... Anjink, lu itu cuma member jadi jangan sok keras yaa Ngentod❌`
+        return `[❗] Ehh... Solo eres un miembro no seas subnormal❌`
 }
 
 exports.Badmin = () => {
-        return `[❗] Jadiin gw admin dulu lah ngentod ❌`
+        return `[❗] Entonces, el administrador me dirá primero ❌`
 }
 
 exports.daftarB = (prefix) => {
-        return `──「 BELUM REGISTER 」──\nHalo Ngentoters !\nLu kan belum Register nih tod, mending lu register dulu dahh... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Iqbal|17`
+        return `── 「TODAVÍA NO ESTÁ REGISTRADO」 ── \ n¡Hola bastardos! \ NTodavía no se ha registrado, es mejor que se registre primero ... \ n \ nComando : ${prefix}register nama|umur\nContoh : ${prefix}regisistrate Nombre|Edad`
 }
 
 exports.daftarD = () => {
-        return `*「 SUDAH REGISTER 」*\n\n*Lu udahh register ngentod*`
+        return `*「 YA REGISTRATE😁 」*\n\n*REGISTRO ECHO*`
 }
 
 exports.wrongf = () => {
-        return`*format salah/text kosong danta lu kontol*`
+        return `*Formato incorrecto / texto en blanco*`
 }
 
 exports.clears = () => {
-        return`*clear all Success*`
+        return`*SE LIMPIO TODO EXITOSAMENTE*`
 }
 
 exports.pc = () => {
